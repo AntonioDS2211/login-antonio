@@ -10,16 +10,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
+    background-image: url(https://img.freepik.com/free-vector/gradient-galaxy-background_23-2148983653.jpg?w=1060&t=st=1683175910~exp=1683176510~hmac=0e4bb5b3bf8b15fed75db903c0e4e967d5a7cb147f6b829e4f37af22383d2e4e);
+    background-size: cover;
+    background-position: center;
   }
   
   .login-box {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: auto; /* Add this line */
+    margin: auto;
+    backdrop-filter: blur(5px);
+    
   }
   
   .login-box h2 {
